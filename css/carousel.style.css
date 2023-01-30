@@ -87,3 +87,20 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
+
+.carousel-inner {
+  text-align: center;
+}
+
+/*
+.carousel-inner > .carousel-item {
+  display: inline-block;
+}
+
+.carousel-inner > .carousel-item > img {
+  margin: 100 auto;
+}
+
+*/
