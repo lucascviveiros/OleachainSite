@@ -27,10 +27,10 @@
     text-decoration: none;
     color: #333;
     font-weight: 600;
-    padding: 0;
+    /* padding: 0; */
     border: none;
     background-color: transparent;
-}
+} 
 
 /* Accordion icon */
 .accordion-icon {
@@ -53,9 +53,8 @@
     background-color: #f7f7f7;
 }
 
-
 .accordion-item.open .accordion-button .accordion-icon .accordion-button {
-    transform: rotate(180deg);
+    transform: rotate(90deg); 
 }
 
 .accordion-item.open .accordion-collapse {

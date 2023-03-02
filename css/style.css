@@ -1,6 +1,5 @@
 /* display background color black on navbar scroll */
 
-
 .navbarScroll {
     background-color: rgb(114, 114, 114);
 }
@@ -8,7 +7,6 @@
 .nav-link
 {
   color: rgb(83, 0, 0);
-
 }
 
 .bgimage {
@@ -22,6 +20,7 @@
     font-size: 3rem;
     padding-top: 20%;
 }
+
 .hero_desc {
     font-size: 2rem;
 }
@@ -48,13 +47,20 @@
 
 }
 
+
+#coordinators
+{
+    margin-top: .5rem;
+    padding-top: 1rem;
+
+}
+
 #publications
 {
     margin-top: 3rem;
     padding-top: 2rem;
     text-align: left;
 }
-
 
 #indicators, #app
 {
@@ -66,7 +72,6 @@
     width: 100%;
     position: static;
     border: 1px solid #73AD21; 
-    
 }
 
 .social-icons {
@@ -101,7 +106,18 @@ p.indent {
     margin-left:auto;
     justify-content:space-evenly;
   }
-
+  .responsive-container-block-coordinators{
+    min-height:75px;
+    height:fit-content;
+    width:100%;
+    display:flex;
+    margin-top:0px;
+    margin-right:auto;
+    margin-bottom:0px;
+    margin-left:auto;
+    justify-content:space-evenly;
+  }
+  
   .outer-container{
     padding-top:10px;
     padding-right:50px;
@@ -110,7 +126,7 @@ p.indent {
     background-color:rgb(208, 213, 160);
   }
   .inner-container{
-    max-width:1320px;
+    max-width:1500px;
     flex-direction:column;
     align-items:center;
     margin-top:50px;
@@ -122,3 +138,11 @@ p.indent {
     width:30%;
     height:40%;
   }
+
+  .team-img-coordinators
+  {
+    width: 40%;
+    height: 40%;
+  }
+
+
